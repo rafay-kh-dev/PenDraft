@@ -1,99 +1,78 @@
-## PenDraft
+<p align="center">
+  <img src="frontend/public/screenshot.png" alt="PenDraft Studio Dashboard" width="100%" />
+</p>
 
-PenDraft is a premium, distraction-free SaaS workspace designed specifically for novelists, authors, and creative writers. Built with the MERN stack, it combines a sleek, modern user interface with robust world-building tools to help writers organise their universes and focus on their craft.
+# PenDraft - Premium Distraction-Free SaaS Workspace for Authors
 
-![PenDraft Studio Dashboard](frontend/public/screenshot.png)
+PenDraft is a full-featured, distraction-free SaaS workspace engineered specifically for novelists, authors, and creative content creators. Built on the MERN stack, it combines a sleek, modern writing interface with comprehensive universe-building tools to assist writers in managing complex story structures, character codices, and multi-volume book collections.
+
+---
 
 ## Key Features
 
-*   **Distraction-Free Editor:** A clean, immersive writing canvas with real-time auto-saving, word count tracking, and dynamic URL slugs.
-*   **Book Series (Collections):** Organise your manuscripts into beautifully colour-coded volumes with synopses and live statistics.
-*   **Story Codex (World-Building Wiki):** A categorised database to record characters, settings, magic rules, and items with dynamic icons and tabbed filtering.
-*   **Inspiration Library:** A curated collection of public domain masterpieces with direct links to Open Library and Google Books to keep authors inspired.
-*   **Manuscript Desk:** A drag-and-drop kanban-style grid to manage chapter statuses (Conception, Outline, Inscribing, Polishing, Finished) and pin important drafts.
-*   **Secure Authentication:** Integrated JWT-based Email/Password login and Google OAuth Sign-In.
-*   **Smart Settings:** Auto-saving user profiles with Base64 image upload support for author portraits, handled securely with increased payload limits.
+### Distraction-Free Canvas
+- Clean, immersive writing environment with real-time auto-saving logic.
+- Dynamic word count metrics, reading time calculators, and dynamic URL slug generation.
 
-## Technology Stack
+### Book Series & Collections Management
+- Organize manuscripts into custom colour-coded volumes and book series.
+- Integrated synopses management and live overall progress tracking.
 
-**Frontend:**
-*   React.js (Vite)
-*   Tailwind CSS
-*   React Router DOM
-*   Axios
+### Story Codex (World-Building Wiki)
+- Categorised wiki-style database to manage characters, environments, magic rules, and story items.
+- Dynamic visual identifiers, tabbed filtering, and cross-reference capabilities.
 
-**Backend:**
-*   Node.js & Express.js
-*   MongoDB & Mongoose
-*   JSON Web Tokens (JWT)
-*   Google Auth Library
-*   Bcrypt.js
+### Inspiration Library Integration
+- Integrated reference repository connecting directly to Open Library and Google Books endpoints for research and inspiration.
 
-## Getting Started
+### Manuscript Kanban Desk
+- Drag-and-drop workflow board for managing chapter progression across stages: *Conception, Outline, Inscribing, Polishing,* and *Finished*.
+- Quick-pinning system for active drafts and critical plot points.
 
-Follow these instructions to set up the project locally on your machine.
+### Enterprise-Grade Security
+- Dual authentication system supporting standard JWT (Bcrypt password hashing) and native Google OAuth 2.0 integration.
+- Secure user settings engine with Base64 media handler configured for author profile graphics.
 
-## Prerequisites
+---
 
-*   Node.js installed
-*   MongoDB database (Local or Atlas)
-*   Google Cloud Console account (for OAuth Client ID)
+## Technical Stack
 
-## Installation
+### Frontend
+- **Framework:** React.js (Vite bundling engine)
+- **Styling:** Tailwind CSS
+- **Routing:** React Router DOM
+- **Network Layer:** Axios
 
-Clone the repository:
+### Backend
+- **Runtime:** Node.js & Express.js
+- **Database & ODM:** MongoDB & Mongoose
+- **Security & Auth:** JSON Web Tokens (JWT), Google Auth Library, Bcrypt.js
 
+---
 
-git clone [https://github.com/your-username/pendraft.git](https://github.com/your-username/pendraft.git)
-cd pendraft
+## SaaS Acquisition & Commercial Sale
 
-## Backend Setup & Configuration
+This complete, production-ready SaaS codebase and intellectual property for **PenDraft** are available for commercial acquisition.
 
-Navigate to the backend directory, install dependencies, and configure your environment:
+### What Is Included in the Transfer:
+- **Full Source Code Ownership:** Full access to both client and server repositories.
+- **Database Schemas & API Architecture:** Fully structured Mongoose schemas for book series, manuscripts, user preferences, and world-building assets.
+- **Handover & Deployment Assistance:** Full guidance regarding MongoDB Atlas setup, OAuth client credentials, environment provisioning, and server deployment.
 
-*  cd backend
-*  npm install
+For acquisition inquiries, pricing discussions, or a private walkthrough of the application, please reach out directly:
 
-## Create a .env file in the backend directory and add the following variables:
+**Contact for Inquiries:** `mrafaykh@outlook.com`
+**Subject Line:** `PenDraft - Commercial Acquisition Inquiry`
 
-*  PORT=5000
-*  MONGO_URI=your_mongodb_connection_string
-*  JWT_SECRET=your_super_secret_jwt_key
-*  GOOGLE_CLIENT_ID=your_google_oauth_client_id
+---
 
-## Start the backend server:
+## Lead Developer
 
-*  npm start
+Engineered and developed by **Rafay**.
+- Full-Stack Web Developer & Technical SEO Specialist.
 
-## Frontend Setup & Execution
+---
 
-*  cd frontend
-*  npm install
-*  npm run dev
+## Commercial License & IP Rights
 
-The application will now be running locally at http://localhost:5173.
-
-## Folder Structure
-
-pendraft/
-  backend/
-    middleware/      
-    models/          
-    index.js         
-    package.json
-  frontend/
-    src/
-      components/  
-      pages/       
-      App.jsx      
-      main.jsx
-    tailwind.config.js
-    package.json
-
-## Contributing
-
-Contributions, issues, and feature requests are welcome. Feel free to check the issues page if you want to contribute.
-
-## License
-
-This project is licensed under the MIT License.
+This repository and its contents are proprietary intellectual property. Redistribution, reproduction, or public deployment without an explicit commercial purchase agreement or legal transfer of ownership is strictly prohibited.
