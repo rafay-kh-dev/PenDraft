@@ -76,7 +76,3 @@ Engineered and developed by **Rafay**.
 ## Commercial License & IP Rights
 
 This repository and its contents are proprietary intellectual property. Redistribution, reproduction, or public deployment without an explicit commercial purchase agreement or legal transfer of ownership is strictly prohibited.
-
----
-
-## System Architecture & Directory Layout
